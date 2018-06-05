@@ -23,6 +23,6 @@ def assign_rooms(arr)
 end 
 
 def printer(arr)
- ans = arr.each_with_index{|e,i| puts "Hello, my name is #{e}." }
-  return ans
+ batch_badge_creator(arr)
+ assign_rooms(arr)
 end 
