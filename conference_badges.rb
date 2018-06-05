@@ -23,6 +23,6 @@ def assign_rooms(arr)
 end 
 
 def printer(arr)
-  arr.each_with_index{|e,i| puts "Hello, #{e}! You'll be assigned to room #{i+1}!"}
-  
+ ans = arr.each_with_index{|e,i| puts "Hello, #{e}! You'll be assigned to room #{i+1}!"}
+  return ans
 end 
